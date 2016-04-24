@@ -1,6 +1,6 @@
 'use strict';
 
-import { StatsCollector } from './lib/stats';
+import { StatsCollector } from './stats';
 
 export default function(RED) {
 

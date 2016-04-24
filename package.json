@@ -55,7 +55,7 @@
   },
   "node-red": {
     "nodes": {
-      "device-stats": "device-stats.js"
+      "device-stats": "lib/device-stats.js"
     }
   }
 }
