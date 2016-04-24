@@ -1,6 +1,8 @@
 Device Statistics Node-RED node
 ===
 
+** Linux and MacOS only **
+
 This node creates statistics information according to the node settings on the editor. The statistics will be embedded into msg.payload and emitted to the output port.
 
 This node emits the statistics information when a msg payload arrives via its input port. Otherwise, the node doesn't do anything.
