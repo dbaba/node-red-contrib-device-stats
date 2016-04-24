@@ -22,12 +22,12 @@
   "homepage": "https://github.com/dbaba/node-red-contrib-device-stats#readme",
   "keywords": [
     "node-red",
-    "bluetooth",
-    "raspbian",
-    "BLE",
-    "bluetooth low energy",
-    "bluetooth smart",
-    "central",
+    "OS",
+    "memory",
+    "network statistics",
+    "cpu usage",
+    "load average",
+    "system information",
     "CANDY EGG"
   ],
   "devDependencies": {
