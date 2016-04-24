@@ -4,6 +4,7 @@
   <p>
   This node emits statistics information according to the node settings.
   The statistics will be populated into <code>msg.payload</code> and published to the output port.
+  This node works only when a message payload is arriving at this node via its output port, therefore, the node uses the incoming message as a trigger.
   </p>
   <p>
   Beside the node settings, you can pass a <code>msg</code> object containg the following object as <code>msg.payload</code> property as well
