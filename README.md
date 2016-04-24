@@ -50,6 +50,9 @@ $ npm run test
 
 # Revision History
 
+* 1.0.1
+  - Fix deployment error
+
 * 1.0.0
   - Initial public release
 
