@@ -17,6 +17,7 @@
   "scripts": {
     "build": "grunt build",
     "test": "grunt test",
+    "clean": "grunt clean",
     "prepublish": "grunt build"
   },
   "homepage": "https://github.com/dbaba/node-red-contrib-device-stats#readme",
