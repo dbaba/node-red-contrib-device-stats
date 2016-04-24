@@ -49,6 +49,8 @@ $ npm run test
 ```
 
 # Revision History
+* 1.0.2
+  - Fix an issue where message resources aren't shown properly
 
 * 1.0.1
   - Fix deployment error
