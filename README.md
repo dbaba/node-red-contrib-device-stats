@@ -5,7 +5,7 @@ Device Statistics Node-RED node
 [![master Build Status](https://travis-ci.org/dbaba/node-red-contrib-device-stats.svg?branch=master)](https://travis-ci.org/dbaba/node-red-contrib-device-stats/)
 [![License MIT](https://img.shields.io/github/license/dbaba/node-red-contrib-device-stats.svg)](http://opensource.org/licenses/MIT)
 
-** Linux and MacOS only **
+**Linux and MacOS only**
 
 This node creates statistics information according to the node settings on the editor. The statistics will be embedded into msg.payload and emitted to the output port.
 
@@ -49,6 +49,9 @@ $ npm run test
 ```
 
 # Revision History
+
+* 1.0.1
+  - Fix deployment error
 
 * 1.0.0
   - Initial public release
