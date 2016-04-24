@@ -8,26 +8,26 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Robotma-com/node-red-contrib-device-stats.git"
+    "url": "https://github.com/dbaba/node-red-contrib-device-stats.git"
   },
   "author": "Daisuke Baba <baba.daisuke@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Robotma-com/node-red-contrib-device-stats/issues"
+    "url": "https://github.com/dbaba/node-red-contrib-device-stats/issues"
   },
   "scripts": {
     "build": "grunt build",
     "test": "grunt test",
     "prepublish": "grunt build"
   },
-  "homepage": "https://github.com/Robotma-com/node-red-contrib-device-stats#readme",
+  "homepage": "https://github.com/dbaba/node-red-contrib-device-stats#readme",
   "keywords": [
     "node-red",
-    "bluetooth",
-    "raspbian",
-    "BLE",
-    "bluetooth low energy",
-    "bluetooth smart",
-    "central",
+    "OS",
+    "memory",
+    "network statistics",
+    "cpu usage",
+    "load average",
+    "system information",
     "CANDY EGG"
   ],
   "devDependencies": {
