@@ -52,7 +52,7 @@
   "dependencies": {
     "es6-promises": "^1.0.10",
     "node-red": "^0.13.4",
-    "source-map-support": "^0.3.3"
+    "source-map-support": "^0.4.2"
   },
   "node-red": {
     "nodes": {
