@@ -36,13 +36,13 @@
     "babel-plugin-uglify": "^1.0.2",
     "uglify-js": "^2.6.1",
     "chai": "^3.3.0",
-    "grunt-cli": "^0.1.13",
-    "grunt-babel": "^5.0.3",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
     "grunt-mocha-test": "^0.12.7",
-    "grunt-run": "^0.5.2",
+    "grunt-run": "^0.6.0",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.0.1",
     "mocha": "^2.3.3",
@@ -51,8 +51,8 @@
   },
   "dependencies": {
     "es6-promises": "^1.0.10",
-    "node-red": "^0.13.4",
-    "source-map-support": "^0.3.3"
+    "node-red": "^0.14.4",
+    "source-map-support": "^0.4.2"
   },
   "node-red": {
     "nodes": {
