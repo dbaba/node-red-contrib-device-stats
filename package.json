@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "es6-promises": "^1.0.10",
-    "node-red": "^0.15.0",
+    "node-red": "^0.15.1",
     "source-map-support": "^0.4.2"
   },
   "node-red": {
