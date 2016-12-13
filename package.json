@@ -29,7 +29,7 @@
     "cpu usage",
     "load average",
     "system information",
-    "CANDY EGG"
+    "CANDY RED"
   ],
   "devDependencies": {
     "node-red": "^0.15.2",
