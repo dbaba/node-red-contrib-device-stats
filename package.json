@@ -32,6 +32,7 @@
     "CANDY EGG"
   ],
   "devDependencies": {
+    "node-red": "^0.15.2",
     "babel": "^5.8.34",
     "babel-plugin-uglify": "^1.0.2",
     "uglify-js": "^2.6.1",
@@ -51,7 +52,6 @@
   },
   "dependencies": {
     "es6-promises": "^1.0.10",
-    "node-red": "^0.14.4",
     "source-map-support": "^0.4.2"
   },
   "node-red": {
