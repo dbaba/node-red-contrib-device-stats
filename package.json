@@ -33,7 +33,7 @@
   ],
   "devDependencies": {
     "babel": "^6.5.2",
-    "babel-plugin-uglify": "^1.0.2",
+    "babel": "^6.23.0",
     "uglify-js": "^2.6.1",
     "chai": "^3.3.0",
     "grunt-cli": "^1.2.0",
