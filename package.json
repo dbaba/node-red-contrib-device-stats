@@ -36,7 +36,7 @@
     "babel": "^5.8.34",
     "babel-plugin-uglify": "^1.0.2",
     "uglify-js": "^2.6.1",
-    "chai": "^3.3.0",
+    "chai": "^4.0.0",
     "grunt-cli": "^1.2.0",
     "grunt-babel": "^6.0.0",
     "grunt-contrib-clean": "^1.0.0",
