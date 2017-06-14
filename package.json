@@ -47,7 +47,7 @@
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.0.1",
     "mocha": "^2.3.3",
-    "sinon": "^2.1.0",
+    "sinon": "^2.3.4",
     "time-grunt": "^1.2.2"
   },
   "dependencies": {
