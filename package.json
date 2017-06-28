@@ -35,7 +35,7 @@
     "node-red": "^0.15.2",
     "babel": "^5.8.34",
     "babel-plugin-uglify": "^1.0.2",
-    "uglify-js": "^3.0.15",
+    "uglify-js": "^3.0.21",
     "chai": "^3.3.0",
     "grunt-cli": "^1.2.0",
     "grunt-babel": "^6.0.0",
