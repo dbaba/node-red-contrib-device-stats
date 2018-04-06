@@ -55,6 +55,15 @@ will generate ES5 js files.
 $ npm run test
 ```
 
+# Shrinkwrap
+
+```
+$ rm -fr node_modules; \
+  rm -f npm-shrinkwrap.json; \
+  nodenv local 8.10.0; \
+  npm install;npm run freeze
+```
+
 # Revision History
 * 1.0.3
   - Remove redundant dependency

@@ -18,7 +18,8 @@
     "build": "gulp build",
     "test": "gulp test",
     "clean": "gulp clean",
-    "prepublish": "gulp build"
+    "prepublish": "gulp build",
+    "freeze": "npm prune && npm shrinkwrap --only=prod"
   },
   "homepage": "https://github.com/dbaba/node-red-contrib-device-stats#readme",
   "keywords": [
