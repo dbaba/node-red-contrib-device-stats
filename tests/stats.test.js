@@ -4,7 +4,6 @@ import os from 'os';
 import fs from 'fs';
 import cproc from 'child_process';
 import RED from 'node-red';
-import Promise from 'es6-promises';
 import { StatsCollector } from '../lib/stats';
 
 let server = sinon.spy();
