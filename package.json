@@ -32,8 +32,8 @@
     "CANDY RED"
   ],
   "devDependencies": {
+    "babel": "^6.23.0",
     "node-red": "^0.15.2",
-    "babel": "^5.8.34",
     "babel-plugin-uglify": "^1.0.2",
     "uglify-js": "^2.6.1",
     "chai": "^4.1.2",
