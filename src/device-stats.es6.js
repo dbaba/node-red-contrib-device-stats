@@ -25,7 +25,8 @@ export default function(RED) {
           if (this.useString || opts && opts.useString) {
             stats = JSON.stringify(stats);
           }
-          this.send({ payload: stats });
+          msg.payload = stats;
+          this.send(msg);
           this.timeout = setTimeout(() => {
             if (this.timeout) {
               this.status({});
