@@ -29,6 +29,13 @@ When this Device Statistics node emit the stats info, you can see the following 
 
 ![Status Indicator](images/screenshot-heartbeat.png "Status Indicator")
 
+### Installation
+
+```
+cd ~/.node-red
+npm install node-red-contrib-device-stats
+```
+
 # Prior to building
 
 ```
@@ -49,6 +56,9 @@ $ npm run test
 ```
 
 # Revision History
+* 1.0.3
+  - Remove redundant dependency
+
 * 1.0.2
   - Fix an issue where message resources aren't shown properly
 
