@@ -4,7 +4,7 @@ import os from 'os';
 import fs from 'fs';
 import cproc from 'child_process';
 import RED from 'node-red';
-import { StatsCollector } from '../lib/stats';
+import { StatsCollector } from '../dist/stats';
 
 let server = sinon.spy();
 let settings = sinon.spy();
@@ -14,14 +14,14 @@ describe('Stats', () => {
   let sandbox;
   let samples = {};
   before(done => {
-    fs.readdir(`${__dirname}/samples/`, (err, files) => {
+    fs.readdir(`${__dirname}/../tests/samples/`, (err, files) => {
       if (err) {
         return done(err);
       }
       Promise.all(
         files.map(f => {
           return new Promise((resolve, reject) => {
-            fs.readFile(`${__dirname}/samples/${f}`, (err, data) => {
+            fs.readFile(`${__dirname}/../tests/samples/${f}`, (err, data) => {
               if (err) {
                 return reject(err);
               }

@@ -3,7 +3,7 @@
 import * as sinon from 'sinon';
 import { assert } from 'chai';
 import RED from 'node-red';
-import stats from '../lib/device-stats';
+import stats from '../dist/device-stats';
 
 let server = sinon.spy();
 let settings = sinon.spy();
