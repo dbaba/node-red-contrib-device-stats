@@ -1,0 +1,61 @@
+[
+    {
+        "id": "6cfb7d24.7bcc2c",
+        "type": "tab",
+        "label": "DeviceStats Example",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "bec43a55.0dbbb8",
+        "type": "DeviceStats",
+        "z": "6cfb7d24.7bcc2c",
+        "name": "",
+        "mem": true,
+        "nw": true,
+        "load": true,
+        "hostname": true,
+        "useString": false,
+        "x": 300.5,
+        "y": 191.25,
+        "wires": [
+            [
+                "cbb66e86.22c048"
+            ]
+        ]
+    },
+    {
+        "id": "c4479c81.15343",
+        "type": "inject",
+        "z": "6cfb7d24.7bcc2c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 119.5,
+        "y": 104.25,
+        "wires": [
+            [
+                "bec43a55.0dbbb8"
+            ]
+        ]
+    },
+    {
+        "id": "cbb66e86.22c048",
+        "type": "debug",
+        "z": "6cfb7d24.7bcc2c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 450.5,
+        "y": 268.5,
+        "wires": []
+    }
+]

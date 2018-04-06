@@ -1,6 +1,5 @@
 'use strict';
 
-import Promise from 'es6-promises';
 import fs from 'fs';
 import os from 'os';
 import cproc from 'child_process';
