@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-device-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node-RED nodes for Device Statistics",
   "os": [
     "!win32"
@@ -29,13 +29,14 @@
     "cpu usage",
     "load average",
     "system information",
-    "CANDY EGG"
+    "CANDY RED"
   ],
   "devDependencies": {
-    "babel": "^5.8.34",
+    "babel": "^6.23.0",
+    "node-red": "^0.15.2",
     "babel-plugin-uglify": "^1.0.2",
     "uglify-js": "^2.6.1",
-    "chai": "^3.3.0",
+    "chai": "^4.1.2",
     "grunt-cli": "^1.2.0",
     "grunt-babel": "^6.0.0",
     "grunt-contrib-clean": "^1.0.0",
@@ -46,13 +47,13 @@
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.0.1",
     "mocha": "^3.2.0",
-    "sinon": "^1.17.1",
+    "sinon": "^4.4.2",
     "time-grunt": "^1.2.2"
   },
   "dependencies": {
     "es6-promises": "^1.0.10",
-    "node-red": "^0.14.4",
-    "source-map-support": "^0.4.2"
+    "node-red": "^0.15.2",
+    "source-map-support": "^0.5.4"
   },
   "node-red": {
     "nodes": {
