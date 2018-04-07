@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-device-stats",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Node-RED nodes for Device Statistics",
   "os": [
     "!win32"
@@ -34,6 +34,7 @@
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
@@ -41,7 +42,7 @@
     "chai": "^4.1.2",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.0",
+    "gulp-babel": "^7.0.1",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-cli": "^2.0.1",

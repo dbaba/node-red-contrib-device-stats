@@ -65,8 +65,11 @@ $ rm -fr node_modules; \
 ```
 
 # Revision History
+* 1.1.1
+  - Fix dependencies
+
 * 1.1.0
-  - Merge #13 to fix "device stats not working with HTTP" issue
+  - Merge [#13](https://github.com/dbaba/node-red-contrib-device-stats/pull/13) to fix "device stats not working with HTTP" issue
   - Replace Grunt with gulp
   - Upgrade dependencies
 
