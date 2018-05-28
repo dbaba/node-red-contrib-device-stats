@@ -60,11 +60,14 @@ $ npm run test
 ```
 $ rm -fr node_modules; \
   rm -f npm-shrinkwrap.json; \
-  nodenv local 8.10.0; \
+  nodenv local 8.11.1; \
   npm install;npm run freeze
 ```
 
 # Revision History
+* 1.1.2
+  - Fix an issue where shrinkwrap file contains devDependencies
+
 * 1.1.1
   - Fix dependencies
 
